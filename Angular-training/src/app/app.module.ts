@@ -17,7 +17,8 @@ import { LoginService } from './login.service';
             HttpModule,
             HttpClientModule,
             AppRoutingModule,
-		ReactiveFormsModule
+            ReactiveFormsModule,
+          
   ],
   declarations: [
         AppComponent,

@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-
+import { NgModule }                                 from '@angular/core';
 
 import { Category } from '../category';
 import { CategoryService } from '../category.service';
 import { Session } from 'protractor';
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
