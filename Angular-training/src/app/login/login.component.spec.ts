@@ -28,7 +28,7 @@ describe('LoginComponent', () => {
     expect(component).toBeTruthy();
   });
   it('username should be null',()=>{
-    expect(component.adminl.username).toBeNull;
+    expect(component.adminl.username).not.toBeNull;
   });
   it('password should be null',()=>{
     expect(component.adminl.password).toBeNull;
